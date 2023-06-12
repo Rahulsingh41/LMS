@@ -1,4 +1,4 @@
- LMS Project
+ LMS Project - Using MS SQl
 -- Table Creation Script:
 CREATE TABLE [dbo].[Subject]
 (
@@ -125,3 +125,4 @@ BEGIN
         Values(@bbid, @bid, @brid, getdate(), dateadd(day, 3, getdate()), 1, 'N')
     END
 END
+
